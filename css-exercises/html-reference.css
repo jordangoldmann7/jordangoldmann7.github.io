@@ -1,1 +1,28 @@
+.tablestyle {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid black;
+}
 
+.tablestyle td th tr {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.tablestyle th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+table, th, td {
+    border: 2px solid black
+}
+
+
+   
