@@ -1,0 +1,60 @@
+.content {
+  background-color:powderblue;
+}
+
+.content p {
+  font-family:"Ariel", sans-serif;
+  color:black;
+}
+
+img {
+  width:100%;
+}
+
+.tablestyle {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.tablestyle td th tr {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.tablestyle th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: red;
+}
+
+
+
+table, th, td {
+    border: 2px solid black
+}
+
+ul.a {
+    list-style-type: circle;
+}
+
+ul.b {
+    list-style-type: square;
+}
+
+ol.c {
+    list-style-type: upper-roman;
+}
+
+ol.d {
+    list-style-type: lower-alpha;
+}
+
+ol.a {
+  background:solid black;
+}
+
+
