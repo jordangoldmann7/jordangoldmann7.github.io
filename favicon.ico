@@ -1,4 +1,22 @@
+<html>
+<head>
 
+<link rel="icon" href="/1de0f56af92b0b32c96bd89f182ee39d.ico.zip">
+<style>
+  img {
+    width:100%;
+}
+</style>
+</head>
+<body>
+
+<p>
+The image below has the width attribute set to 128 pixels, but the stylesheet overrides it, and sets the width to 100%.
+</p>
+<img src="pixeldemonstration2.png" alt="HTML5 Icon" width="128" height="128">
+
+</body>
+</html>
 
 
 
