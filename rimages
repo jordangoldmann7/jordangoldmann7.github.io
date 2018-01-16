@@ -1,7 +1,22 @@
- <div>
-     <img src='/images/ismall-1000.jpg'
-        srcset='/images/ihq-5700.jpg 5700w,
-                /images/ilq-3500.jpg 3500w,
-                /images/imq-2000.jpg 2000w,
-                /images/ismall-1000.jpg 1000w'>
-   </div>
+<html>
+<head>
+<style>
+/*This stylesheet sets the width of all images to 100%: */
+img {
+    width:100%;
+}
+
+</style>
+</head>
+<body>
+
+<p>
+The image below has the width attribute set to 128 pixels, but the stylesheet overrides it, and sets the width to 100%.
+</p>
+<img src="">
+
+<p>The image below uses the style attribute, where the width is set to 128 pixels which overrides the stylesheet:</p>
+<img src="html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+
+</body>
+</html>
